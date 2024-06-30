@@ -4,7 +4,7 @@
   - select npm in wizard
   - skip the project.json modification step: we go with vite, not nodejs
 
-`npm install @ryoppippi/unplugin-typia --save-dev`
+`npx jsr add -D @ryoppippi/unplugin-typia`
 
 do in vite.config.ts:
 
